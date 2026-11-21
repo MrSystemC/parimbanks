@@ -1,0 +1,21 @@
+.auth-shell{min-height:100dvh;display:grid;place-items:center;padding:32px 18px;background:#090c10;color:#ecf3e8;position:relative;overflow:hidden}
+.auth-shell:before{content:"";position:absolute;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,#2e4a2c55 0%,transparent 65%);top:-300px;right:-220px;pointer-events:none}
+.auth-card{position:relative;width:min(100%,470px);padding:34px;border:1px solid #2d3943;border-radius:18px;background:linear-gradient(150deg,#141b20f5,#0f1419f5);box-shadow:0 30px 80px #0008}
+.auth-brand{display:flex;align-items:center;gap:11px;margin-bottom:34px;color:#caff45;font-size:18px;font-weight:800;letter-spacing:-.4px}
+.auth-brand-mark{width:33px;height:33px;border:1px solid #617f40;border-radius:10px;display:grid;place-items:center;font-size:17px}
+.auth-eyebrow{color:#b5cb8c;font-size:9px;letter-spacing:2px;text-transform:uppercase;margin-bottom:11px}
+.auth-card h1{font-size:34px;letter-spacing:-1.3px;line-height:1.08;margin:0;color:#f0f5ec}
+.auth-card>p{color:#9ba8b2;font-size:13px;line-height:1.7;margin:13px 0 25px}
+.auth-form{display:grid;gap:16px}
+.auth-form label{display:grid;gap:7px;color:#c4d0c0;font-size:11px;font-weight:650}
+.auth-form input{width:100%;min-height:46px;padding:12px 13px;border:1px solid #33414b;border-radius:9px;background:#11181d;color:#edf4e7;font-size:14px;outline:none}
+.auth-form input:focus{border-color:#b6e247;box-shadow:0 0 0 3px #b6e24722}
+.auth-form small{color:#82909c;font-size:10px;font-weight:400;line-height:1.45}
+.auth-submit{min-height:48px;border:0;border-radius:9px;background:#caff45;color:#131a0f;font-size:13px;font-weight:800;cursor:pointer;margin-top:5px}
+.auth-submit:hover{background:#dbff78}.auth-submit:disabled{opacity:.6;cursor:wait}
+.auth-error{padding:11px 13px;border:1px solid #8c4949;background:#3b2024;color:#ffb3ae;border-radius:9px;font-size:12px;line-height:1.5}
+.auth-success{padding:11px 13px;border:1px solid #5d783c;background:#20321e;color:#d8f7a9;border-radius:9px;font-size:12px;line-height:1.5}
+.auth-links{display:flex;justify-content:space-between;gap:12px;margin-top:20px;padding-top:18px;border-top:1px solid #29343c;font-size:12px}
+.auth-links a{color:#caff45;text-decoration:none}.auth-links a:hover{text-decoration:underline}.auth-muted{color:#83909b}
+.auth-status{padding:15px;border:1px dashed #3c4b54;color:#aebbbf;border-radius:9px;font-size:12px}
+@media(max-width:520px){.auth-card{padding:25px 21px}.auth-card h1{font-size:29px}.auth-links{flex-direction:column}}
